@@ -6,17 +6,17 @@ public class Phone {
     private double weight;
 
     //region CONSTRUCTORS
-    public Phone (){
+    public Phone() {
 
     }
 
-    public Phone (String phoneNumber, String model, double weight){
+    public Phone(String phoneNumber, String model, double weight) {
         this(phoneNumber, model);
 //      this.model = model;
         this.weight = weight;
     }
 
-    public Phone (String phoneNumber, String model){
+    public Phone(String phoneNumber, String model) {
         this.phoneNumber = phoneNumber;
         this.model = model;
     }
@@ -50,22 +50,24 @@ public class Phone {
     //endregion
 
     //region METHODS
-    public void receiveCall(String name){
+    public void receiveCall(String name) {
         System.out.println(name + " calls");
     }
-    public void receiveCall(String name, String phoneNumber){
+
+    public void receiveCall(String name, String phoneNumber) {
         System.out.println(name + " calls (" + phoneNumber + ")");
     }
 
-//    public void sendMessage (String [] phoneNumbers){
-//        for (int i = 0; i < phoneNumbers.length; i++){
-//            System.out.println(phoneNumbers[i]);
-//        }
-    public void sendMessage (String... phoneNumbers){
-        for (int i = 0; i<phoneNumbers.length; i++){
+    public void sendMessage (String [] phoneNumbers){
+        for (int i = 0; i < phoneNumbers.length; i++){
             System.out.println(phoneNumbers[i]);
         }
     }
+//    public void sendMessage (String... phoneNumbers){
+//        for (int i = 0; i<phoneNumbers.length; i++){
+//            System.out.println(phoneNumbers[i]);
+//        }
+//    }
     //endregion
 
 //    @Override

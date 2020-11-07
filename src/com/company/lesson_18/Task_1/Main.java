@@ -30,11 +30,12 @@ public class Main {
                 "87719994167","87719994166","87719994165","87719994164","87719994163","87719994162","87055580222","87007199941"
         };
 	    phone1.sendMessage(numbers);
-	    phone2.sendMessage("5465", "8489", "8764", "489469", "12489", "15684699");
+
+//	    phone2.sendMessage("5465", "8489", "8764", "489469", "12489", "15684699");
 //	    phone1.receiveCall("Dauren", "87015380377");
 //	    phone1.receiveCall("Dauren");
-//        System.out.println(phone1);
-//        System.out.println(phone2);
-//        System.out.println(phone3);
+        System.out.println(phone1);
+        System.out.println(phone2);
+        System.out.println(phone3);
     }
 }
