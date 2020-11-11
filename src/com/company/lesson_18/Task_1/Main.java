@@ -17,8 +17,6 @@ package com.company.lesson_18.Task_1;
 //           которым будет отправлено сообщение. Метод выводит на консоль номера этих телефонов.
 //        л) Изменить класс Phone в соответствии с концепцией JavaBean.
 
-import org.w3c.dom.ls.LSOutput;
-
 public class Main {
 
     public static void main(String[] args) {
